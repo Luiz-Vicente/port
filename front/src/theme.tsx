@@ -6,7 +6,7 @@ const customTheme = extendTheme({
 	styles: {
 		global: () => ({
 			body: {
-				fontFamily: "Poppins",
+				fontFamily: "Poppins, sans-serif",
 				bg: "#0A192F",
 				display: "flex",
 				flexDirection: "column",
