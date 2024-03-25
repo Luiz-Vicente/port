@@ -1,6 +1,5 @@
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { GridItem, Image, Link, Stack, Text } from "@chakra-ui/react";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
 interface StackItemProps {
@@ -47,7 +46,7 @@ function StackItem({ stack, index = null }: StackItemProps) {
 			</Stack>
 			<Stack p="4">
 				<Text
-					fontSize={{base: "md", lg:"2xl"}}
+					fontSize={{ base: "md", lg: "2xl" }}
 					fontWeight="bold"
 					color="white"
 				>
@@ -60,7 +59,7 @@ function StackItem({ stack, index = null }: StackItemProps) {
 						color="white"
 						href={stack.url}
 					>
-						Acesse o site <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+						Acesse o site <ExternalLinkIcon />
 					</Link>
 				)}
 			</Stack>

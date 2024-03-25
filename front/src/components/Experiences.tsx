@@ -5,7 +5,7 @@ import AboutExperience from "./AboutExperience";
 function Experiences() {
 	const companyList = [
 		{
-			img: "./src/assets/images/toolzz-logo.png",
+			img: "./images/toolzz-logo.png",
 			name: "Edulabzz",
 			role: "Desenvolvedor Full stack Pleno",
 			description:
@@ -38,7 +38,7 @@ function Experiences() {
 			isCurrentJob: true,
 		},
 		{
-			img: "./src/assets/images/leads-logo.png",
+			img: "./images/leads-logo.png",
 			name: "Leads2b",
 			role: "Desenvolvedor Front end Junior",
 			description:
@@ -66,7 +66,7 @@ function Experiences() {
 			isCurrentJob: false,
 		},
 		{
-			img: "./src/assets/images/devicente-logo.png",
+			img: "./images/devicente-logo.png",
 			name: "Devicente",
 			role: "Desenvolvedor Full stack Junior",
 			description:

@@ -1,7 +1,6 @@
 import { Button, Flex } from "@chakra-ui/react";
-import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import { DownloadIcon } from "@chakra-ui/icons";
 
 function Navbar() {
 	return (
@@ -13,7 +12,7 @@ function Navbar() {
 				as={Link}
 				target="_blank"
 				to="/resume/resume.pdf"
-				leftIcon={<FontAwesomeIcon icon={faFileArrowDown} />}
+				leftIcon={<DownloadIcon />}
 				bg="#00A110"
 				borderRadius={0}
 				color="white"

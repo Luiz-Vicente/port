@@ -67,7 +67,7 @@ function AboutMe() {
 							w="100%"
 							opacity="0.5"
 							filter="grayscale(100%)"
-							src="./src/assets/images/eu=).jpeg"
+							src="./images/eu=).jpeg"
 						/>
 						<Button
 							as={Link}
