@@ -1,5 +1,6 @@
-import { Button, Stack, Text } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { MinusIcon } from "@chakra-ui/icons";
+import { Button, Link, Stack, Text } from "@chakra-ui/react";
+import { Link as ReactLink } from "react-router-dom";
 
 function Contact() {
 	return (
@@ -30,7 +31,7 @@ function Contact() {
 				juntos! 💪
 			</Text>
 			<Button
-				as={Link}
+				as={ReactLink}
 				to="https://wa.me/5541999199420"
 				w={{ base: "100%", md: "30vw" }}
 				size="lg"
@@ -43,6 +44,32 @@ function Contact() {
 			>
 				Vamos conversar
 			</Button>
+			<Stack
+				mt="4"
+				direction="row"
+				alignItems="center"
+			>
+				<Link
+					target="_blank"
+					href="https://github.com/luiz-vicente"
+				>
+					Github
+				</Link>
+				<MinusIcon boxSize="4px" />
+				<Link
+					target="_blank"
+					href="https://www.instagram.com/eu_sou_o_luiz/"
+				>
+					Instagram
+				</Link>
+				<MinusIcon boxSize="4px" />
+				<Link
+					target="_blank"
+					href="mailto:dev.vicente.contato@gmail.com"
+				>
+					E-mail
+				</Link>
+			</Stack>
 		</Stack>
 	);
 }
