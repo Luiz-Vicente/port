@@ -1,11 +1,11 @@
 import { Flex } from "@chakra-ui/react";
-import AboutMe from "../AboutMe";
-import Header from "../Header";
-import TechCarousels from "../TechsCarousel";
-import Experiences from "../Experiences";
-import Tecnologies from "../Tecnologies";
-import Contact from "../Contact";
-import FooterSection from "../FooterSection";
+import AboutMe from "../section-components/AboutMe";
+import Header from "../page-sections/Header";
+import TechCarousels from "../page-sections/TechsCarousel";
+import Experiences from "../page-sections/Experiences";
+import Tecnologies from "../page-sections/Tecnologies";
+import Contact from "../page-sections/Contact";
+import FooterSection from "../page-sections/FooterSection";
 
 function Home() {
 	return (

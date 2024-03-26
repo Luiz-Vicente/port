@@ -13,7 +13,6 @@ function AboutMe() {
 		"comunicativo",
 		"positivo",
 		"persistente",
-		"criador de Chamblurgs",
 	];
 
 	return (
@@ -33,7 +32,7 @@ function AboutMe() {
 					w={{ base: "100%", lg: "50%" }}
 				>
 					<Text color="white">
-						Com três anos de sólida experiência como desenvolvedor full stack pleno, tenho especialização e paixão pelo
+						Com três anos de sólida experiência como desenvolvedor full stack, tenho especialização e paixão pelo
 						front-end. Durante minha jornada, destaco-me por atuar no desenvolvimento de um Design System completo, com
 						ênfase em testes unitários e documentação detalhada para um renomado CRM nacional.
 						<br />

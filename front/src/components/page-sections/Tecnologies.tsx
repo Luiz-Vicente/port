@@ -1,6 +1,6 @@
 import { Grid, Select, Stack } from "@chakra-ui/react";
-import SectionTitle from "./SectionTitle";
-import StackItem from "./StackItem";
+import SectionTitle from "../section-components/SectionTitle";
+import StackItem from "../section-components/StackItem";
 import { useEffect, useMemo, useState } from "react";
 
 interface stackOptionsInterface {

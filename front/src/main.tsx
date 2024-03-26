@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// Analytics
+// analytics
 import { Analytics } from "@vercel/analytics/react";
 
 // routes

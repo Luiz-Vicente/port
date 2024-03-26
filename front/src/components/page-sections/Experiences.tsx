@@ -1,13 +1,13 @@
 import { Stack } from "@chakra-ui/react";
-import SectionTitle from "./SectionTitle";
-import AboutExperience from "./AboutExperience";
+import SectionTitle from "../section-components/SectionTitle";
+import AboutExperience from "../section-components/AboutExperience";
 
 function Experiences() {
 	const companyList = [
 		{
 			img: "./images/toolzz-logo.png",
 			name: "Edulabzz",
-			role: "Desenvolvedor Full stack Pleno",
+			role: "Desenvolvedor Full stack",
 			description:
 				"Durante minha trajetória na Edulabzz, realizei a maior entrega da empresa para um cliente, um marco destacado pela própria diretoria que fortaleceu significativamente nosso relacionamento com esse cliente estrategicamente importante. Além disso, dediquei parte do meu tempo auxiliando os desenvolvedores Júniors em suas jornadas, orientando-os na configuração de seus ambientes e na resolução de tarefas mais avançadas. Um dos meus feitos notáveis foi reduzir drasticamente o tempo de resposta da fila de webhooks, que antes era de um dia, para menos de 20 minutos. Essa melhoria não apenas economizou recursos, mas também aprimorou consideravelmente a experiência dos usuários com nossos serviços.",
 			skills: [
@@ -40,7 +40,7 @@ function Experiences() {
 		{
 			img: "./images/leads-logo.png",
 			name: "Leads2b",
-			role: "Desenvolvedor Front end Junior",
+			role: "Desenvolvedor Front end",
 			description:
 				"Assumi a responsabilidade pelo desenvolvimento do Design System oficial da empresa, uma conquista que não apenas facilitou significativamente o trabalho de desenvolvimento front-end para outros desenvolvedores, mas também acelerou o processo de desenvolvimento, mantendo uma consistência visual em todas as aplicações. Além disso, realizei o refatoramento do front-end das telas mais utilizadas pelos clientes, adaptando-as ao novo padrão visual estabelecido. Introduzi padrões de codificação que resultaram em um impacto altamente positivo para os clientes, tornando as telas mais intuitivas e melhorando a experiência do usuário.",
 			skills: [
@@ -68,7 +68,7 @@ function Experiences() {
 		{
 			img: "./images/devicente-logo.png",
 			name: "Devicente",
-			role: "Desenvolvedor Full stack Junior",
+			role: "Desenvolvedor Full stack",
 			description:
 				"Na Devicente, desempenhei um papel central no desenvolvimento de aplicações completas, desde o planejamento até o deploy. Essa experiência abrangente me proporcionou um vasto conhecimento e expertise em todas as etapas do desenvolvimento. Durante este período, pude aplicar princípios de gestão de projetos, metodologias ágeis, desenvolvimento orientado a testes e a implementação de pipelines CI/CD. Esta abordagem holística permitiu um fluxo de trabalho eficiente e a entrega de produtos de alta qualidade.",
 			skills: [
