@@ -41,7 +41,7 @@ function StackItem({ stack, index = null }: StackItemProps) {
 					opacity={isHover === index ? "1" : "0.5"}
 					filter={isHover === index ? "grayscale(0%)" : "grayscale(100%)"}
 					src={stack.img}
-					alt={`Logo ${stack.name}`}
+					alt={`Logo da tecnologia ${stack.name}`}
 				/>
 			</Stack>
 			<Stack p="4">

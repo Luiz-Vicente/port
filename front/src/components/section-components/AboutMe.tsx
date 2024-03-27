@@ -61,6 +61,7 @@ function AboutMe() {
 				>
 					<Box w="full">
 						<Image
+							alt="Luiz, um homem moreno com bigode olhando para o canto superior esquerdo, sentado em uma mesa de pizzaria"
 							objectFit="cover"
 							h={{ base: "300px", md: "500px" }}
 							w="100%"
