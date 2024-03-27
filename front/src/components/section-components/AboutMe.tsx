@@ -66,7 +66,7 @@ function AboutMe() {
 							w="100%"
 							opacity="0.5"
 							filter="grayscale(100%)"
-							src="./images/eu=).jpeg"
+							src="./images/eu=).webp"
 						/>
 						<Button
 							as={Link}
