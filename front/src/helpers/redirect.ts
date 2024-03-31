@@ -1,7 +1,10 @@
 export function redirectTo(url: string) {
-	if (!url) {
-		return "/";
-	}
+  const link = document.createElement('a');
 
-	window.location.href = url;
+  link.href = url;
+  link.target = "_blank";
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }

@@ -7,7 +7,7 @@ import Tecnologies from "../page-sections/Tecnologies";
 import Contact from "../page-sections/Contact";
 import FooterSection from "../page-sections/FooterSection";
 
-function Home() {
+export function Home() {
 	return (
 		<Flex
 			direction="column"
@@ -25,5 +25,3 @@ function Home() {
 		</Flex>
 	);
 }
-
-export default Home;
