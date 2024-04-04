@@ -26,7 +26,7 @@ const TechCarousels = () => {
 		{ name: "chakraui", url: "./images/chakraui-logo.webp" },
 		{ name: "figma", url: "./images/figma-logo.webp" },
 		{ name: "graphql", url: "./images/graphql-logo.webp" },
-		{ name: "insominia", url: "./images/insominia-logo.webp" },
+		{ name: "insomnia", url: "./images/insomnia-logo.webp" },
 		{ name: "mongo", url: "./images/mongo-logo.webp" },
 		{ name: "mysql", url: "./images/mysql-logo.webp" },
 		{ name: "next", url: "./images/next-logo.webp" },

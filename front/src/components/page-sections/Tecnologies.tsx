@@ -119,9 +119,9 @@ function Tecnologies() {
 				url: "https://graphql.org/",
 			},
 			{
-				name: "Insominia",
+				name: "Insomnia",
 				type: ["tools"],
-				img: "./images/insominia-logo.webp",
+				img: "./images/insomnia-logo.webp",
 				url: "https://insomnia.rest/",
 			},
 			{
