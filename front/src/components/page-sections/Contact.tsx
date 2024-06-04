@@ -53,7 +53,7 @@ function Contact() {
 					target="_blank"
 					href="https://github.com/luiz-vicente"
 				>
-					Github
+					GitHub
 				</Link>
 				<MinusIcon boxSize="4px" />
 				<Link
@@ -68,6 +68,13 @@ function Contact() {
 					href="mailto:dev.vicente.contato@gmail.com"
 				>
 					E-mail
+				</Link>
+				<MinusIcon boxSize="4px" />
+				<Link
+					target="_blank"
+					href="https://www.linkedin.com/in/dev-vicente/"
+				>
+					LinkedIn
 				</Link>
 			</Stack>
 		</Stack>
