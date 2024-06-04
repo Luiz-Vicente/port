@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Image, Stack, Text } from "@chakra-ui/react";
-import SectionTitle from "./SectionTitle";
-import BadgesBox from "./BadgesBox";
+import SectionTitle from "../section-components/SectionTitle";
+import BadgesBox from "../section-components/BadgesBox";
 import { Link } from "react-router-dom";
 
 function AboutMe() {
@@ -66,7 +66,9 @@ function AboutMe() {
 							h={{ base: "300px", md: "500px" }}
 							w="100%"
 							opacity="0.5"
+							transition="0.5s"
 							filter="grayscale(100%)"
+							_hover={{ filter: "grayscale(0%)", opacity: "1" }}
 							src="./images/eu=).webp"
 						/>
 						<Button

@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/react";
-import AboutMe from "../section-components/AboutMe";
+import AboutMe from "../page-sections/AboutMe";
 import Header from "../page-sections/Header";
 import TechCarousels from "../page-sections/TechsCarousel";
 import Experiences from "../page-sections/Experiences";

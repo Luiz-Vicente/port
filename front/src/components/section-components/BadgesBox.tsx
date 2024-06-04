@@ -18,8 +18,8 @@ const BadgesBox: React.FC<BadgesBoxProps> = ({ badges, ...rest }) => {
 					key={index}
 					bg="#94DF9B"
 					border="1px"
-					borderColor="#00A110"
-					color="#00A110"
+					borderColor="#00800D"
+					color="#00800D"
 				>
 					{skill}
 				</Badge>
