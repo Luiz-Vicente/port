@@ -4,13 +4,14 @@ import BadgesBox from "./BadgesBox";
 interface AboutExperience {
 	img: string;
 	name: string;
+	site: string | null;
 	role: string;
 	description: string;
 	skills: string[];
 	isCurrentJob?: boolean;
 }
 
-function AboutExperience({ img, name, role, description, skills, isCurrentJob = false }: AboutExperience) {
+function AboutExperience({ img, name, site, role, description, skills, isCurrentJob = false }: AboutExperience) {
 	return (
 		<Stack
 			direction={{ base: "column", lg: "row" }}
@@ -18,13 +19,16 @@ function AboutExperience({ img, name, role, description, skills, isCurrentJob = 
 		>
 			<Tooltip
 				hasArrow
-				label={`Empresa ${name}`}
+				label={site ? `Clique para conhecer ${name}` : `Sem site disponível para ${name}`}
 			>
 				<Image
+					cursor="pointer"
+					onClick={site ? () => window.open(site, "_blank") : () => { }}
 					objectFit="cover"
 					opacity={{ base: "1", lg: "0.5" }}
 					filter={{ base: "none", lg: "grayscale(100%)" }}
 					w={{ base: "100px", lg: "200px" }}
+					h={{ base: "100px", lg: "200px" }}
 					transition="0.5s"
 					_hover={{ filter: "grayscale(0%)", opacity: "1" }}
 					mr={{ base: "0", lg: "16" }}
