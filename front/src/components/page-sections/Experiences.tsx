@@ -8,9 +8,9 @@ function Experiences() {
 			img: "./images/soluevo-logo.webp",
 			name: "Soluevo",
 			site: "https://soluevo.com.br/",
-			role: "Desenvolvedor Front end",
+			role: "Desenvolvedor Front-end",
 			description:
-				"Durante minha jornada na Soluevo, tive a oportunidade de atuar na empresa Cogna, especificamente no projeto Voomp Creators. Nesse projeto, fui responsável por diversas demandas no front-end, o que incluiu a refatoração de telas antigas, o desenvolvimento completo de um novo sistema de gamificação e a criação de arquiteturas voltadas ao front-end. Esse período foi extremamente enriquecedor, permitindo-me aplicar e expandir meus conhecimentos em desenvolvimento web, além de contribuir significativamente para a evolução do projeto e da experiência dos usuários.",
+				"Durante minha jornada na Soluevo, tive a oportunidade de atuar na empresa Cogna, especificamente no projeto Voomp Creators. Nesse projeto, fui responsável por diversas demandas no Front-end, o que incluiu a refatoração de telas antigas, o desenvolvimento completo de um novo sistema de gamificação e a criação de arquiteturas voltadas ao Front-end. Esse período foi extremamente enriquecedor, permitindo-me aplicar e expandir meus conhecimentos em desenvolvimento web, além de contribuir significativamente para a evolução do projeto e da experiência dos usuários.",
 			skills: [
 				"Vue.js",
 				"Vuex",
@@ -66,9 +66,9 @@ function Experiences() {
 			img: "./images/leads-logo.webp",
 			name: "Leads2b",
 			site: "https://leads.com.br/",
-			role: "Desenvolvedor Front end",
+			role: "Desenvolvedor Front-end",
 			description:
-				"Assumi a responsabilidade pelo desenvolvimento do Design System oficial da empresa, uma conquista que não apenas facilitou significativamente o trabalho de desenvolvimento front-end para outros desenvolvedores, mas também acelerou o processo de desenvolvimento, mantendo uma consistência visual em todas as aplicações. Além disso, realizei o refatoramento do front-end das telas mais utilizadas pelos clientes, adaptando-as ao novo padrão visual estabelecido. Introduzi padrões de codificação que resultaram em um impacto altamente positivo para os clientes, tornando as telas mais intuitivas e melhorando a experiência do usuário.",
+				"Assumi a responsabilidade pelo desenvolvimento do Design System oficial da empresa, uma conquista que não apenas facilitou significativamente o trabalho de desenvolvimento Front-end para outros desenvolvedores, mas também acelerou o processo de desenvolvimento, mantendo uma consistência visual em todas as aplicações. Além disso, realizei o refatoramento do Front-end das telas mais utilizadas pelos clientes, adaptando-as ao novo padrão visual estabelecido. Introduzi padrões de codificação que resultaram em um impacto altamente positivo para os clientes, tornando as telas mais intuitivas e melhorando a experiência do usuário.",
 			skills: [
 				"Vue.js",
 				"Meteor.js",

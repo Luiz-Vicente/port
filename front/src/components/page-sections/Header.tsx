@@ -41,7 +41,7 @@ function Header() {
 						fontWeight="extrabold"
 						opacity="50%"
 					>
-						um dev Full Stack
+						um dev Full stack
 					</Text>
 					<Text
 						color="white"
@@ -49,7 +49,7 @@ function Header() {
 						opacity="50%"
 						fontWeight="regular"
 					>
-						especializado em Front end e focado em criar projetos que transformem processos e encantem usuários.
+						especializado em Front-end e focado em criar projetos que transformem processos e encantem usuários.
 					</Text>
 				</Box>
 				<Flex

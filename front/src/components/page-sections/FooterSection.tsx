@@ -18,7 +18,7 @@ function FooterSection() {
 				textAlign="center"
 				pt="8"
 			>
-				Desgin e desenvolvimento por Luiz Vicente - {getCurrentYear()}
+				Design e desenvolvimento por Luiz Vicente - {getCurrentYear()}
 			</Text>
 		</Stack>
 	);

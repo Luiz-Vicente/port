@@ -58,13 +58,6 @@ function Contact() {
 				<MinusIcon boxSize="4px" />
 				<Link
 					target="_blank"
-					href="https://www.instagram.com/eu_sou_o_luiz/"
-				>
-					Instagram
-				</Link>
-				<MinusIcon boxSize="4px" />
-				<Link
-					target="_blank"
 					href="mailto:dev.vicente.contato@gmail.com"
 				>
 					E-mail

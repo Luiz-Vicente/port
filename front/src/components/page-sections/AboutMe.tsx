@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 function AboutMe() {
 	const skills = [
-		"Full Stack",
-		"Especialista em Front end",
+		"Full stack",
+		"Especialista em Front-end",
 		"3 anos de experiência",
 		"focado em usabilidade",
 		"experiência com design UI/UX",
@@ -32,13 +32,13 @@ function AboutMe() {
 					w={{ base: "100%", lg: "50%" }}
 				>
 					<Text color="white">
-						Com três anos de sólida experiência como desenvolvedor full stack, tenho especialização e paixão pelo
-						front-end. Durante minha jornada, destaco-me por atuar no desenvolvimento de um Design System completo, com
+						Com três anos de sólida experiência como desenvolvedor Full stack, tenho especialização e paixão pelo
+						Front-end. Durante minha jornada, destaco-me por atuar no desenvolvimento de um Design System completo, com
 						ênfase em testes unitários e documentação detalhada para um renomado CRM nacional.
 						<br />
 						<br />
 						Minha habilidade em resolver desafios de desempenho também se destacou em projetos anteriores, onde melhorei
-						significativamente a eficiência de filas no back-end, reduzindo o tempo de resposta em 90%.
+						significativamente a eficiência de filas no Back-end, reduzindo o tempo de resposta do servidor de mais de um dia para menos de 20 minutos.
 						<br />
 						<br />
 						Além disso, tenho um forte compromisso com o compartilhamento de conhecimento. Como parte desse compromisso,
@@ -47,7 +47,7 @@ function AboutMe() {
 						desenvolvimento.
 						<br />
 						<br />
-						Atualmente, continuo a aprimorar minhas habilidades em diversas tecnologias de front-end, capacitando-me a
+						Atualmente, continuo a aprimorar minhas habilidades em diversas tecnologias de Front-end, capacitando-me a
 						trabalhar com uma variedade de frameworks para criar soluções modernas e eficazes.
 					</Text>
 					<BadgesBox

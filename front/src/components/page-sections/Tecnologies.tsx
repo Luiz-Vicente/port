@@ -221,8 +221,8 @@ function Tecnologies() {
 	const stackOptions = useMemo(
 		() => [
 			{ name: "Todos", value: "all" },
-			{ name: "Front end", value: "front" },
-			{ name: "Back end", value: "back" },
+			{ name: "Front-end", value: "front" },
+			{ name: "Back-end", value: "back" },
 			{ name: "DevOps", value: "devops" },
 			{ name: "Banco de dados", value: "database" },
 			{ name: "Ferramentas", value: "tools" },
