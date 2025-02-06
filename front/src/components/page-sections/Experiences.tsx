@@ -5,9 +5,9 @@ import AboutExperience from "../section-components/AboutExperience";
 function Experiences() {
 	const companyList = [
 		{
-			img: "./images/soluevo-logo.webp",
-			name: "Soluevo",
-			site: "https://soluevo.com.br/",
+			img: "./images/voomp-logo.png",
+			name: "Voomp Creators",
+			site: "https://www.voompcreators.com.br/",
 			role: "Desenvolvedor Front-end",
 			description:
 				"Durante minha jornada na Soluevo, tive a oportunidade de atuar na empresa Cogna, especificamente no projeto Voomp Creators. Nesse projeto, fui responsável por diversas demandas no Front-end, o que incluiu a refatoração de telas antigas, o desenvolvimento completo de um novo sistema de gamificação e a criação de arquiteturas voltadas ao Front-end. Esse período foi extremamente enriquecedor, permitindo-me aplicar e expandir meus conhecimentos em desenvolvimento web, além de contribuir significativamente para a evolução do projeto e da experiência dos usuários.",
@@ -28,6 +28,30 @@ function Experiences() {
 			],
 			isCurrentJob: true,
 		},
+		// {
+		// 	img: "./images/soluevo-logo.webp",
+		// 	name: "Soluevo",
+		// 	site: "https://soluevo.com.br/",
+		// 	role: "Desenvolvedor Front-end",
+		// 	description:
+		// 		"Durante minha jornada na Soluevo, tive a oportunidade de atuar na empresa Cogna, especificamente no projeto Voomp Creators. Nesse projeto, fui responsável por diversas demandas no Front-end, o que incluiu a refatoração de telas antigas, o desenvolvimento completo de um novo sistema de gamificação e a criação de arquiteturas voltadas ao Front-end. Esse período foi extremamente enriquecedor, permitindo-me aplicar e expandir meus conhecimentos em desenvolvimento web, além de contribuir significativamente para a evolução do projeto e da experiência dos usuários.",
+		// 	skills: [
+		// 		"Vue.js",
+		// 		"Vuex",
+		// 		"Nuxt",
+		// 		"Apollo",
+		// 		"GraphQL",
+		// 		"Javascript",
+		// 		"Docker",
+		// 		"i18n",
+		// 		"TailwindCSS",
+		// 		"Bootstrap",
+		// 		"Vite",
+		// 		"Rest API",
+		// 		"Webpack",
+		// 	],
+		// 	isCurrentJob: true,
+		// },
 		{
 			img: "./images/toolzz-logo.webp",
 			name: "Edulabzz",
@@ -92,9 +116,9 @@ function Experiences() {
 			isCurrentJob: false,
 		},
 		{
-			img: "./images/devicente-logo.webp",
+			img: "./images/devicente-logo.png",
 			name: "Devicente",
-			site: null,
+			site: "https://devicente.com.br",
 			role: "Desenvolvedor Full stack",
 			description:
 				"Na Devicente, desempenhei um papel central no desenvolvimento de aplicações completas, desde o planejamento até o deploy. Essa experiência abrangente me proporcionou um vasto conhecimento e expertise em todas as etapas do desenvolvimento. Durante este período, pude aplicar princípios de gestão de projetos, metodologias ágeis, desenvolvimento orientado a testes e a implementação de pipelines CI/CD. Esta abordagem holística permitiu um fluxo de trabalho eficiente e a entrega de produtos de alta qualidade.",

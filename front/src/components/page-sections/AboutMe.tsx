@@ -69,7 +69,7 @@ function AboutMe() {
 							transition="0.5s"
 							filter="grayscale(100%)"
 							_hover={{ filter: "grayscale(0%)", opacity: "1" }}
-							src="./images/eu=).webp"
+							src="./images/luiz-vicente=).JPG"
 						/>
 						<Button
 							as={Link}
